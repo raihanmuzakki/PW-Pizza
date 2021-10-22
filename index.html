@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pizza Muzakki</title>
+</head>
+<body  style="background-color:white; justify-content: center; display: flex;">
+    <fieldset>
+    <h3><b>Black Goose Bistro | Pizza-on-Demand</b></h3>
+    <font>Our 12" wood-fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour.</font>
+    <font>Your Information</font>
+    <form method="post" action="http://blackgoosebistro.com/pizza.php">
+    <br>
+    <br>
+        <font>Nama:</font>
+        <input type="text" placeholder=""> 
+    <br>
+        <font>Address:</font>
+        <input type="text" placeholder=""> 
+    <br>
+        <font>Telephone Number:</font>
+        <input type="text" placeholder=""> 
+    <br>
+        <font>Email:</font>
+        <input type="text" placeholder=""> 
+    <br>
+        <font>Deliver Instructions :</font>
+        <br>
+        <textarea cols="50" rows="4"></textarea>
+        <br> 
+        <br>
+    <br>
+    <font><b>Design Your Dream Pizza:</b></font> <br>
+    <font style="size: 2px;">Pizza Specs</font>
+    <br>
+    <br>
+    <font>Crust (Choose One):</font> <br>
+        <input name="Classic White" type="checkbox" id="Classic White"
+        value="Classic White"> Classic White
+    <br>
+        <input name="Multigrain" type="checkbox" id="Multigrain"
+        value="Multigrain"> Multigrain
+    <br>
+        <input name="Cheese-stuffed crust" type="checkbox" id="Cheese-stuffed crust"
+        value="Cheese-stuffed crust"> Cheese-stuffed crust
+    <br>
+        <input name="Gluten-free" type="checkbox" id="Gluten-free"
+        value="Gluten-free"> Gluten-free
+    <br>
+    <font>Toppings (Choose as my many as you want)</font>
+    <br>
+        <input name="Cheese-stuffed crust" type="checkbox" id="Cheese-stuffed crust"
+        value="Cheese-stuffed crust"> Red Sauce
+        <br>
+        <input name="Cheese-stuffed crust" type="checkbox" id="Cheese-stuffed crust"
+        value="Cheese-stuffed crust"> White Sauce
+        <br>
+        <input name="Cheese-stuffed crust" type="checkbox" id="Cheese-stuffed crust"
+        value="Cheese-stuffed crust"> Mozarella Sauce
+        <br>
+        <input name="Cheese-stuffed crust" type="checkbox" id="Cheese-stuffed crust"
+        value="Cheese-stuffed crust"> Pepperoni
+        <br>
+        <input name="Cheese-stuffed crust" type="checkbox" id="Cheese-stuffed crust"
+        value="Cheese-stuffed crust"> Mushrooms
+        <br>
+        <input name="Cheese-stuffed crust" type="checkbox" id="Cheese-stuffed crust"
+        value="Cheese-stuffed crust"> Peppers
+        <br>
+        <input name="Cheese-stuffed crust" type="checkbox" id="Cheese-stuffed crust"
+        value="Cheese-stuffed crust"> Anchovies
+    <br>
+    <br>
+    <table>
+        <td>
+        <p>Number</p>
+        <p> How many pizzas:
+    <input id="number" type="number"
+    value="0" min="0" max="7" step="1"/>
+    <p>
+        <input type="submit" value="Bring me a pizza !">
+        &nbsp;
+        <input type="reset" value="Reset">
+    </p>
+</form>
+    </fieldset>
+</body>
+
+</html>
